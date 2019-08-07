@@ -1,0 +1,117 @@
+/* ========== REGISTRATION ========== */
+
+form {
+    margin: 20px 0;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+.registration h2 {
+    text-align: center;
+}
+
+.registration h3,
+h4 {
+    margin: 20px 0;
+}
+
+.first-part {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.first-part div {
+    padding: 0 20px;
+}
+
+.second-part {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.second-part div {
+    padding: 0 20px;
+}
+
+input {
+    margin: 15px;
+    font-size: 16px;
+    padding: 10px;
+    /* width: 250px; */
+    border: 2px solid #A3FF15;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+}
+
+label span {
+    color: #A3FF15;
+    text-decoration: none;
+}
+
+.checkbox_container {
+    display: flex;
+}
+
+.checkbox_container:last-child {
+    padding-bottom: 20px;
+}
+
+.left {
+    margin-right: 40px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+select {
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    width: 120%;
+    position: relative;
+    font-size: 1em;
+    height: 40px;
+    color: white;
+    background-color: #033949;
+    border-radius: 5px;
+    border: 2px solid #A3FF15;
+}
+
+
+.submit {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: #033949;
+    border-radius: 5px;
+    border: 2px solid #A3FF15;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.submit:hover {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 10px 0#A3FF15 inset, 0 0 20px 2px #A3FF15;
+    border: 3px solid #A3FF15;
+    cursor: pointer;
+}

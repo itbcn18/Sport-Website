@@ -1,0 +1,79 @@
+/* =============  GAME INFORMATION  ============ */
+
+table {
+    margin-top: 20px;
+}
+
+.game-info>p>span {
+    color: #A3FF15;
+}
+
+thead{
+    background-color: #95a5a6;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+tr th {
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+th, td {
+    padding: 0 30px;
+    vertical-align: middle;
+     text-align: center;
+}
+
+ .locations tr>td{
+    text-align: left;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+
+/*  MAPS  */
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.mapouter {
+    width: 40%;
+}
+
+.mapouter h3 {
+    text-align: center;
+    color: #A3FF15;
+
+}
+
+.gmap_canvas {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.gmap_canvas iframe{
+    border: 3px solid #A3FF15;
+    border-radius: 5px;
+}
+
+.gmap_canvas iframe:hover{
+    box-shadow: 0 0 10px 0#A3FF15 inset, 0 0 20px 2px #A3FF15;
+    background-color: grey;
+}
+
+.information {
+    padding: 0 30px;
+}
+
+.information strong {
+    color: #A3FF15;
+}
